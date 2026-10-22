@@ -1,0 +1,39 @@
+{
+  "name": "dsh-windows-acl-logon-dacl-fix",
+  "version": "0.1.0",
+  "description": "Reversible DSH Windows workspace-write sandbox startup repair using the logon SID.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "runner-hook.mjs",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SuShuHeng/dsh-windows-acl-logon-dacl-fix.git"
+  },
+  "homepage": "https://github.com/SuShuHeng/dsh-windows-acl-logon-dacl-fix#readme",
+  "bugs": {
+    "url": "https://github.com/SuShuHeng/dsh-windows-acl-logon-dacl-fix/issues"
+  },
+  "engines": {
+    "node": ">=24.0.0",
+    "dsh": "0.2.1-rc.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

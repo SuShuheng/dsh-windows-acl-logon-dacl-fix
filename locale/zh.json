@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Windows 沙箱启动修复",
+    "description": "为受限子进程默认 ACL 添加当前登录 SID，使 workspace-write 下的 shell 能启动，同时保留工作区与临时目录写入边界。"
+  }
+}

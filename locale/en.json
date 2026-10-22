@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Windows Sandbox Startup Fix",
+    "description": "Adds the current logon SID to confined child default ACLs so workspace-write shell processes can initialize while retaining workspace and temp write boundaries."
+  }
+}

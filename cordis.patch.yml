@@ -1,0 +1,3 @@
+- insert:
+    - id: windows-acl-logon-dacl-fix
+      name: 'dsh-windows-acl-logon-dacl-fix'
